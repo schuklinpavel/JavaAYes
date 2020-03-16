@@ -19,8 +19,8 @@ public class Main {
         final String jediWarrior = jedis[(new Random()).nextInt(jedis.length)];
         final String sithWarrior = siths[(new Random()).nextInt(siths.length)];
 
-        final double heightOfPositionSith = (new Random()).nextInt(3);
-        final double heightOfPositionJedi = (new Random()).nextInt(3);
+        final int heightOfPositionSith = (new Random()).nextInt(3);
+        final int heightOfPositionJedi = (new Random()).nextInt(3);
 
         String vantagePosition;
         if (heightOfPositionJedi == heightOfPositionSith) {
