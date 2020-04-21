@@ -27,8 +27,8 @@ public class Main {
     public static void main(String[] args) {
         final int arrCapacity = 200;
 
-        final ArrayList<Integer> arrayOne = new ArrayList<Integer>(arrCapacity);
-        final ArrayList<Integer> arrayTwo = new ArrayList<Integer>(arrCapacity);
+        final List<Integer> arrayOne = new ArrayList<Integer>(arrCapacity);
+        final List<Integer> arrayTwo = new ArrayList<Integer>(arrCapacity);
         final int[] arrayThree = new int[arrCapacity];
 
         for (int i = 0; i < arrCapacity; i++) {

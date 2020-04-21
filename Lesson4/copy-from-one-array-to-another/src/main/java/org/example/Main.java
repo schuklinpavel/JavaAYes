@@ -1,5 +1,6 @@
 package org.example;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 /*
@@ -14,8 +15,8 @@ public class Main {
     public static void main(String[] args) {
         final int arrCapacity = 1000;
 
-        final ArrayList<Integer> arrayOfInt = new ArrayList<Integer>(arrCapacity);
-        final ArrayList<Integer> anotherArrayOfInt = new ArrayList<Integer>(arrCapacity);
+        final List<Integer> arrayOfInt = new ArrayList<Integer>(arrCapacity);
+        final List<Integer> anotherArrayOfInt = new ArrayList<Integer>(arrCapacity);
 
         for (int i = 0; i < arrCapacity; i++) {
             arrayOfInt.add(ThreadLocalRandom.current().nextInt(0, 1_000_000));

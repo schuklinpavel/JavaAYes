@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         final int arrCapacity = 100;
 
-        final ArrayList<Integer> arrayOfInt = new ArrayList<Integer>(arrCapacity);
+        final List<Integer> arrayOfInt = new ArrayList<Integer>(arrCapacity);
 
         for (int i = 0; i < arrCapacity; i++) {
             arrayOfInt.add(i + 1);
